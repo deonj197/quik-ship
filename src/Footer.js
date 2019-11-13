@@ -8,7 +8,9 @@ export function Footer() {
       {" "}
       <Navbar bg="dark" expand="xl">
         <Container>
-          <NavbarBrand>Contact Us!</NavbarBrand>
+          <NavbarBrand>
+            Contact Us! | 555-565-5555 | myemail@email.com
+          </NavbarBrand>
         </Container>
       </Navbar>
     </div>

@@ -1,0 +1,14 @@
+.card-product {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 200px;
+}
+.card-product2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
