@@ -48,7 +48,7 @@ class ProductCard extends Component {
       <div className="card-product2">
         <Card>
           <CardActionArea>
-            <CardMedia component="img" alt="Shoe" src={this.props.image} />
+            <CardMedia component="img" alt="Shoe" image={this.props.image} />
             <CardContent>
               <Typography>{this.props.name}</Typography>
               <Typography gutterBottom variant="body1" color="textPrimary">
