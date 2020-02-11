@@ -8,21 +8,55 @@ class shoesdata extends Component {
       shoesdata: [
         {
           id: 1,
-          image: "../images/Nike1.jpg",
+          image: require("../images/Nike1.jpg"),
           name: "Nike Pro Max",
           description: "Black nike running shoe"
         },
         {
           id: 2,
-          image: "../images/Nike2.jpg",
+          image: require("../images/Nike3.jpg"),
           name: "Nike Pro Max",
           description: "White nike running shoe"
         },
         {
           id: 3,
-          image: "../images/Nike3.jpg",
+          image: require("../images/Nike3.jpg"),
           name: "Nike Pro Max",
           description: "Nike running shoe"
+        },
+        {
+          id: 4,
+          image: require("../images/Nike3.jpg"),
+          name: "Nike Pro Max",
+          description: "White Nike running shoe"
+        },
+
+        {
+          id: 5,
+          image: require("../images/Nike2.jpg"),
+          name: "Nike Glide Max",
+          description: "White Nike running shoe"
+        },
+
+        {
+          id: 6,
+          image: require("../images/Nike2.jpg"),
+          name: "Nike Glide Max",
+          description: "White Nike running shoe"
+        },
+
+        {
+          id: 7,
+          image: require("../images/Nike2.jpg"),
+          name: "Nike Glide Max",
+          description: "White Nike running shoe"
+        },
+
+        {
+          id: 8,
+          image: require("../images/Nike2.jpg"),
+          name: "Nike Glide Max",
+          description: "White Nike running shoe"
         }
       ]
     };
@@ -31,7 +65,12 @@ class shoesdata extends Component {
     let home2 = this.state.shoesdata.map(shoe => {
       return (
         <Col>
-          <Home2 key={shoesdata.id} />
+          <Home2
+            key={shoe.id}
+            image={shoe.image}
+            name={shoe.name}
+            description={shoe.description}
+          />
         </Col>
       );
     });
