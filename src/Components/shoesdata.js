@@ -14,7 +14,7 @@ class shoesdata extends Component {
         },
         {
           id: 2,
-          image: require("../images/Nike3.jpg"),
+          image: require("../images/Nike2.jpg"),
           name: "Nike Pro Max",
           description: "White nike running shoe"
         },
